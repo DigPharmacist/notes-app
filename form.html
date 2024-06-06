@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New notes </title>
+    <link rel="stylesheet" href="form.css">
+    <body>
+    <div class="container">
+        <form action="" id="Note" class="note">
+        <div class="add_text">
+            <h5>Add a new Notes</h5>
+        </div>
+        <div class="main">
+            <label for="">Title</label>
+            <input type="text" name="title" placeholder="" id="title">
+            <label for="">Description</label>
+            <textarea name="description" id="description" placeholder="Enter description"></textarea>
+        </div>
+        <div class="button">
+            <button type="button"  onclick="AddNote()" id="addNote">Add Note</button>
+        </div>
+    </form>
+    </div>
+    <script src="form.js"></script>
+    
+</body>
+</html>
